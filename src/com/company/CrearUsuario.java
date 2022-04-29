@@ -49,8 +49,8 @@ public class CrearUsuario {
             Usuarios.add(new Usuario(nombre, telefono, correo, especialidad, cedula));
 
             //Doctores.add(new Doctor())
-            ImportarCSV();
-            ExportarCSV(Usuarios);
+            /*ImportarCSV();
+            ExportarCSV(Usuarios);*/
 
         }
     }
@@ -101,7 +101,7 @@ public class CrearUsuario {
             e.printStackTrace();
         }
     }
-    public static void ImportarCSV() {
+    /*public static void ImportarCSV() {
         try{
             List<Usuario> usuarios = new ArrayList<Usuario>(); // Lista donde guardaremos los datos del archivo
 
@@ -136,14 +136,14 @@ public class CrearUsuario {
                         +user.getESPECIALIDAD() + " , "
                         +user.getCEDULA());
 
-            }*/
+            }
 
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch(IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
 
 
