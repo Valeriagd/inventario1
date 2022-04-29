@@ -47,8 +47,8 @@ public class CrearEquipo {
             Equipos.add(new Equipo(nombre, id, numeros, fecha, modelo));
 
             //Usuarios.add(new Usuario())
-            ImportarCSV();
-            ExportarCSV(Equipos);
+            /*();
+            ExportarCSV(Equipos);*/
 
         }
     }
@@ -98,7 +98,7 @@ public class CrearEquipo {
             e.printStackTrace();
         }
     }
-    public static void ImportarCSV() {
+    /*public static void ImportarCSV() {
         try{
             List<Equipo> usuarios = new ArrayList<Equipo>(); // Lista donde guardaremos los datos del archivo
 
@@ -126,12 +126,12 @@ public class CrearEquipo {
                         +user.getEDAD() + " , "
                         +user.getGENERO());
 
-            }*/
+            }
 
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch(IOException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
