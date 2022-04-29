@@ -50,12 +50,12 @@ public class menu {
                         crear.ListaUsuarios();
                         System.out.println("---------------------------------------------------------------------\n");
                         break;
-                    /*case 2:
+                    case 2:
                         System.out.println("-----------------------------------------------------------------------");
                         System.out.println("                      AGREGAR EQUIPO                                ");
                         System.out.println("---------------------------------------------------------------------\n");
-                        CrearPaciente crearPaciente = new CrearPaciente();
-                        crearPaciente.ListaPacientes();
+                        CrearEquipo crearPaciente = new CrearEquipo();
+                        crearPaciente.ListaEquipos();
                         System.out.println("\n---------------------------------------------------------------------");
                         System.out.println("----------------------------------------------------------------------\n\n");
                         break;
@@ -63,11 +63,11 @@ public class menu {
                         System.out.println("-----------------------------------------------------------------------");
                         System.out.println("                       AGREGAR PERIODO DE ASIGNACION                   ");
                         System.out.println("---------------------------------------------------------------------\n");
-                        CrearCita crearCita = new CrearCita();
-                        crearCita.ListaCitas();
+                        PeriodoAsignacion crearCita = new PeriodoAsignacion();
+                        crearCita.ListaAsignacion();
                         System.out.println("\n---------------------------------------------------------------------");
                         System.out.println("----------------------------------------------------------------------\n\n");
-                        break;*/
+                        break;
                     case 4:
                         salir = true;
                         System.out.println("Salir");
